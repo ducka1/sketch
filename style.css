@@ -5,12 +5,12 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
     height: 900px;
     width: 900px;
 }
 
 .tile {
-    border: 0px solid orangered;
+    box-sizing: border-box;
+    border: 1px solid orangered;
     background-color: darkorange;
 }
