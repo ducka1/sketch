@@ -6,7 +6,7 @@ btn.addEventListener('click', () => {
     if (size > 100) {
         alert('The number you entered is too big');
     } else {
-        container.replaceChildren() // remove grid
+        container.replaceChildren(); // remove grid
         createGrid(size);
     }
 });
